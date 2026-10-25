@@ -6,6 +6,7 @@ Hellow, word
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pengumpulan Karya | PERBANAS TECHNOW FEST</title>
+
   <style>
     * {
       box-sizing: border-box;
@@ -14,67 +15,100 @@ Hellow, word
     body {
       margin: 0;
       min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #101827, #173b63);
+      color: #ffffff;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 24px;
-      font-family: Arial, sans-serif;
-      background: #f3f4f6;
-      color: #1f2937;
     }
 
     .card {
       width: 100%;
-      max-width: 560px;
-      background: white;
-      padding: 36px;
-      border-radius: 16px;
+      max-width: 650px;
+      padding: 48px 32px;
       text-align: center;
-      box-shadow: 0 8px 30px #00000010;
+      background: #ffffff;
+      color: #172033;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px #00000040;
+    }
+
+    .label {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 30px;
+      background: #e0ebff;
+      color: #174ea6;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
 
     h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
+      margin: 24px 0 12px;
+      font-size: clamp(28px, 5vw, 40px);
     }
 
     p {
-      line-height: 1.7;
-      color: #4b5563;
+      color: #596579;
+      line-height: 1.8;
     }
 
-    .btn {
+    .button {
       display: inline-block;
-      margin-top: 20px;
-      padding: 14px 24px;
-      background: #2563eb;
-      color: white;
+      margin-top: 22px;
+      padding: 15px 24px;
+      background: #245de8;
+      color: #ffffff;
+      border-radius: 10px;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 8px;
+      transition: background 0.2s;
     }
 
-    .btn:hover {
-      background: #1d4ed8;
+    .button:hover {
+      background: #1746bb;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #8791a2;
     }
   </style>
 </head>
+
 <body>
   <main class="card">
+    <span class="label">PERBANAS TECHNOW FEST</span>
+
     <h1>Pengumpulan Karya</h1>
-    <p><strong>PERBANAS TECHNOW FEST</strong></p>
 
     <p>
-      https://docs.google.com/forms/d/e/1FAIpQLSedmXUsKrztL6xbgCwY5uYIlWciHqgKaMl2kJ0C_HBSNDnuxg/viewform?usp=header
+      Selamat datang di halaman pengumpulan karya
+      lomba website PERBANAS TECHNOW FEST.
+    </p>
+
+    <p>
+      Silakan klik tombol di bawah untuk mengisi
+      formulir, mengirim tautan website, dan
+      mengunggah laporan karya sesuai ketentuan lomba.
     </p>
 
     <a
-      class="btn"
-      href="GANTI_DENGAN_LINK_GOOGLE_FORMS"
+      class="button"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSedmXUsKrztL6xbgCwY5uYIlWciHqgKaMl2kJ0C_HBSNDnuxg/viewform?usp=header"
       target="_blank"
       rel="noopener noreferrer">
-      Isi Formulir Sekarang
+      Isi Formulir Sekarang →
     </a>
+
+    <div class="footer">
+      © 2026 PERBANAS TECHNOW FEST
+    </div>
   </main>
 </body>
 </html>
+
